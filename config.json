@@ -1,0 +1,47 @@
+{
+  "login": "priyanshujimiwal",
+  "name": "Priyanshu Jimiwal",
+  "status": "open to SDE / internship roles",
+  "degree": {
+    "title": "MCA in AI & Data Science",
+    "school": "Graphic Era Hill University",
+    "start": "2025-08-01",
+    "end": "2027-06-30"
+  },
+  "currently": "learning system design · grinding DSA",
+  "terminal": [
+    { "cmd": "whoami", "out": "priyanshu · MCA (AI & DS) student" },
+    { "cmd": "cat focus.txt", "out": "ML pipelines · DSA · Python" },
+    { "cmd": "python forecast.py --fest diwali", "out": "✓ spike caught by festival regressor", "ok": true }
+  ],
+  "stack": [
+    { "group": "languages", "items": ["Python", "C++", "C", "SQL"], "primary": "Python" },
+    { "group": "ml & data", "items": ["Pandas", "NumPy", "Scikit-learn", "Prophet"] },
+    { "group": "databases", "items": ["Oracle SQL"] },
+    { "group": "tools", "items": ["Git", "GitHub", "Google Colab"] },
+    { "group": "cs core", "items": ["DSA", "OOP", "DBMS", "Computer Networks"] }
+  ],
+  "projects": [
+    {
+      "title": "Seasonal Demand Forecasting",
+      "repo": "seasonal-demand-forecasting",
+      "art": "forecast",
+      "description": "Prophet model forecasting festival & wedding-season demand, using a custom festival-proximity regressor.",
+      "tags": ["Python", "Prophet", "Pandas", "NumPy"]
+    },
+    {
+      "title": "Pathfinding Visualiser",
+      "repo": "",
+      "art": "pathfinding",
+      "description": "Dijkstra, A*, BFS and DFS on weighted & unweighted graphs, rendered step by step as terminal graphics.",
+      "tags": ["C++", "Python", "Graphs"]
+    }
+  ],
+  "dsa": { "repo": "leetcode" },
+  "links": [
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/priyanshu-jimiwal-a862713a9" },
+    { "label": "LeetCode", "url": "https://leetcode.com/u/priyanshu_jimiwal/" },
+    { "label": "Email", "url": "mailto:priyanshujimiwal02@gmail.com" }
+  ],
+  "languages": { "weighting": "repo", "excludeRepos": ["demo", "localrepo"], "exclude": [], "top": 5 }
+}

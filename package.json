@@ -1,0 +1,8 @@
+{
+  "name": "priyanshujimiwal",
+  "private": true,
+  "type": "module",
+  "description": "Self-rendered GitHub profile cards",
+  "engines": { "node": ">=20" },
+  "scripts": { "build": "node src/index.mjs" }
+}
