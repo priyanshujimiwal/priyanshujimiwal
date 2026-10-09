@@ -12,15 +12,20 @@ import { link } from './cards/link.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 
-// CI passes GH_TOKEN; locally fall back to the first value in .env (KEY=value or KEY: value).
+// CI passes GH_TOKEN; locally fall back to the first token-looking string in .env
+// (works for KEY=value, KEY: value, or a bare token).
 function token() {
   if (process.env.GH_TOKEN) return process.env.GH_TOKEN;
   const envFile = join(root, '.env');
   if (existsSync(envFile)) {
-    const line = readFileSync(envFile, 'utf8').split('\n').find((l) => /^\s*[\w.-]+\s*[:=]\s*\S/.test(l));
-    if (line) return line.replace(/^\s*[\w.-]+\s*[:=]\s*/, '').trim().replace(/^["']|["']$/g, '');
+    const m = readFileSync(envFile, 'utf8').match(/\b(gh[pousr]_\w+|github_pat_\w+)/);
+    if (m) return m[1];
   }
-  throw new Error('No token: set GH_TOKEN or add one to .env');
+  throw new Error(
+    process.env.CI
+      ? 'GH_TOKEN is empty — add a METRICS_TOKEN repository secret (Settings → Secrets and variables → Actions)'
+      : 'No token: set GH_TOKEN or put your token in .env',
+  );
 }
 
 const config = JSON.parse(readFileSync(join(root, 'config.json'), 'utf8'));
