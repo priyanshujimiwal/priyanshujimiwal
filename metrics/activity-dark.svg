@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="340" viewBox="0 0 840 340" role="img" aria-labelledby="title desc">
 <title id="title">GitHub activity</title>
-<desc id="desc">231 contributions in the last year, 222 commits, current streak 1 days, longest 12 days.</desc>
+<desc id="desc">232 contributions in the last year, 223 commits, current streak 1 days, longest 12 days.</desc>
 <defs>
 <linearGradient id="g" x1="0" y1="0" x2="1" y2="0.3">
     <stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/>
@@ -36,17 +36,17 @@
   <g class="rise" style="animation-delay:0s">
     <rect x="24" y="56" width="189" height="100" rx="14" fill="#161a25" stroke="#ffffff14"/>
     <text x="40" y="82" class="mono" font-size="11" fill="#8a90a6" letter-spacing="1.2" text-anchor="start">CONTRIBUTIONS</text>
-    <text x="40" y="122" class="sans" font-size="32" font-weight="800" letter-spacing="-1" fill="url(#g)">231<tspan font-size="15" font-weight="600" fill="#8a90a6" dx="3"></tspan></text>
+    <text x="40" y="122" class="sans" font-size="32" font-weight="800" letter-spacing="-1" fill="url(#g)">232<tspan font-size="15" font-weight="600" fill="#8a90a6" dx="3"></tspan></text>
     <text x="40" y="142" class="sans" font-size="12" fill="#8a90a6">last 12 months</text>
     
-    <path d="M135,108 L139,108 L143,108 L147,108 L151,108 L155,108 L159,100.86 L163,78 L167,106.29 L171,106.57 L175,108 L179,105.43 L183,101.43 L187,102.57 L191,108 L195,106 L195,108 L135,108 Z" fill="url(#g)" opacity=".14"/>
-    <path d="M135,108 L139,108 L143,108 L147,108 L151,108 L155,108 L159,100.86 L163,78 L167,106.29 L171,106.57 L175,108 L179,105.43 L183,101.43 L187,102.57 L191,108 L195,106" fill="none" stroke="url(#g)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="draw"/>
+    <path d="M135,108 L139,108 L143,108 L147,108 L151,108 L155,108 L159,100.86 L163,78 L167,106.29 L171,106.57 L175,108 L179,105.43 L183,101.43 L187,102.57 L191,108 L195,105.71 L195,108 L135,108 Z" fill="url(#g)" opacity=".14"/>
+    <path d="M135,108 L139,108 L143,108 L147,108 L151,108 L155,108 L159,100.86 L163,78 L167,106.29 L171,106.57 L175,108 L179,105.43 L183,101.43 L187,102.57 L191,108 L195,105.71" fill="none" stroke="url(#g)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="draw"/>
   </g>
   
   <g class="rise" style="animation-delay:0.07s">
     <rect x="225" y="56" width="189" height="100" rx="14" fill="#161a25" stroke="#ffffff14"/>
     <text x="241" y="82" class="mono" font-size="11" fill="#8a90a6" letter-spacing="1.2" text-anchor="start">COMMITS</text>
-    <text x="241" y="122" class="sans" font-size="32" font-weight="800" letter-spacing="-1" fill="url(#g)">222<tspan font-size="15" font-weight="600" fill="#8a90a6" dx="3"></tspan></text>
+    <text x="241" y="122" class="sans" font-size="32" font-weight="800" letter-spacing="-1" fill="url(#g)">223<tspan font-size="15" font-weight="600" fill="#8a90a6" dx="3"></tspan></text>
     <text x="241" y="142" class="sans" font-size="12" fill="#8a90a6">1 PR · 0 issues</text>
     
   </g>
