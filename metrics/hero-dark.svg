@@ -59,7 +59,7 @@
     <text x="32" y="196" class="mono" font-size="11" fill="#8a90a6" letter-spacing="1.2" text-anchor="start">degree.progress</text>
     <text x="432" y="196" class="mono" font-size="11" fill="#e8eaf2" text-anchor="end">62%</text>
     <rect x="32" y="205" width="400" height="8" rx="4" fill="#ffffff0d" stroke="#ffffff14"/>
-    <rect x="32" y="205" width="249.42" height="8" rx="4" fill="url(#g)" class="grow"/>
+    <rect x="32" y="205" width="249.58" height="8" rx="4" fill="url(#g)" class="grow"/>
     <text x="32" y="236" class="mono" font-size="11" fill="#8a90a6">currently → <tspan fill="#e8eaf2">learning system design · grinding DSA</tspan></text>
   </g>
   
