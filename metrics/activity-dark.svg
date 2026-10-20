@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="340" viewBox="0 0 840 340" role="img" aria-labelledby="title desc">
 <title id="title">GitHub activity</title>
-<desc id="desc">245 contributions in the last year, 236 commits, current streak 1 days, longest 12 days.</desc>
+<desc id="desc">245 contributions in the last year, 236 commits, current streak 0 days, longest 12 days.</desc>
 <defs>
 <linearGradient id="g" x1="0" y1="0" x2="1" y2="0.3">
     <stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/>
@@ -31,7 +31,7 @@
 <g clip-path="url(#cardclip)">
 
   <text x="24" y="38" class="mono" font-size="11" fill="#8a90a6" letter-spacing="1.2" text-anchor="start">◆ ACTIVITY</text>
-  <text x="816" y="38" class="mono" font-size="10.5" fill="#8a90a6" text-anchor="end">updated 19 Oct 2026</text>
+  <text x="816" y="38" class="mono" font-size="10.5" fill="#8a90a6" text-anchor="end">updated 20 Oct 2026</text>
   
   <g class="rise" style="animation-delay:0s">
     <rect x="24" y="56" width="189" height="100" rx="14" fill="#161a25" stroke="#ffffff14"/>
@@ -54,7 +54,7 @@
   <g class="rise" style="animation-delay:0.14s">
     <rect x="426" y="56" width="189" height="100" rx="14" fill="#161a25" stroke="#ffffff14"/>
     <text x="442" y="82" class="mono" font-size="11" fill="#8a90a6" letter-spacing="1.2" text-anchor="start">STREAK</text>
-    <text x="442" y="122" class="sans" font-size="32" font-weight="800" letter-spacing="-1" fill="url(#g)">1<tspan font-size="15" font-weight="600" fill="#8a90a6" dx="3">day</tspan></text>
+    <text x="442" y="122" class="sans" font-size="32" font-weight="800" letter-spacing="-1" fill="url(#g)">0<tspan font-size="15" font-weight="600" fill="#8a90a6" dx="3">days</tspan></text>
     <text x="442" y="142" class="sans" font-size="12" fill="#8a90a6">best run · 12 days</text>
     
   </g>
